@@ -103,6 +103,15 @@
     color: var(--first-text-color);
 }
 
+.link {
+    text-decoration: none;
+    color: var(--background-content);
+}
+
+.link:hover {
+    color: var(--accent-text-color)
+}
+
 
 
 /* my work experience */
@@ -175,14 +184,6 @@
     margin: 50px 0px 0px 30px;
 }
 
-.sidebar-title {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: var(--background-content);
-    margin-bottom: 10px;
-}
-
 .contacts-section-type {
     font-weight: bold;
     font-size: 14px;
@@ -196,6 +197,12 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+}
+
+
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+    color: var(--accent-text-color)
 }
 
 .my-tech-skills-section {
